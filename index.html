@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>Blog Homepage</title>
@@ -54,16 +54,16 @@
             <h1>Welcome</h1>
             <p>Welcome to my blogpost project site. Here I will document things thorughout my learning journey.</p>
             <div class="cards">
-                <a href="./pages/keyboard_shortcuts.html" class="card_post">
-                    <h2>Keyboard Shortcuts</h2>
-                    <img src="./images/keboard.jpeg" alt="Keyboard">
-                    <div class="preview_info">
-                        <p>
-                            This article touches on some keyboard shortcuts I utalize almost daily. These keyboard shortcuts may help you navigate around your computer much faster.
-                        </p>
-                    </div>
-                </a>
-                
+                    <a href="./pages/keyboard_shortcuts.html" class="card_post">
+                        <h2>Keyboard Shortcuts</h2>
+                        <img src="./images/keboard.jpeg" alt="Keyboard">
+                        <div class="preview_info">
+                            <p>
+                                This article touches on some keyboard shortcuts I utalize almost daily. These keyboard shortcuts may help you navigate around your computer much faster.
+                            </p>
+                        </div>
+                    </a>
+
                 <a href="./pages/html_notes.html" class="card_post">
                     <h2>HTML Notes</h2>
                     <img src="./images/notes.jpeg" alt="notes">
@@ -95,11 +95,33 @@
                     </div>
                 </a>
             </div>
+            
+        <div class="subscribe">
+            <p>Liked what you read? Consider subscribing for more!</p>
+            <input type="email" name="email" pattern=".+@globex\.com" placeholder="Enter your email" maxlength="40">
+            <button type="button">
+                Subscribe
+            </button>
         </div>
+        </div>
+
 
 <!--FOOTER-->
         <footer class="footer">
-            <h1>footer</h1>
+            <a class="logo_nav" href="/index.html"><img class="logo" src="/images/logo.png" alt="AI generated logo">KS blogsite</a>
+            <div class="footer_lists">
+                <h4>Resources:</h4>
+                <ul>
+                    <li><a href="https://github.com/Kory-S" target="_blank"><img src="/images/GitHub-Logo.png" alt="github logo">Github</a></li>
+                </ul>
+            </div>
+            <div class="footer_lists">
+                <h4>Contact:</h4>
+                <ul>
+                    <li>ksmrt89@yahoo.com</li>
+                    <li>smart.kory@gmail.com</li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>

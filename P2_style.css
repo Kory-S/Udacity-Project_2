@@ -30,7 +30,7 @@ body {
     border-radius: 0 0 5px 5px;
 }
 
-.navbar .logo {
+.logo {
     all: inherit;
     height: 40px;
     width: auto;
@@ -157,7 +157,7 @@ body {
     justify-content: center;
     margin: auto;
     color: #dbcc8f;
-    background-color: #2b2222;
+    background-color: #4e4e4e;
 }
 
 .about h1 {
@@ -181,11 +181,6 @@ body {
 .about img {
     width: 100px;
     height: auto;
-}
-
-.footer {
-    background-color: #747474;
-    grid-area: footer;
 }
 
 .page_content {
@@ -216,6 +211,47 @@ body {
     padding: 10px;
     width: 300px;
     height: 75px;
+}
+
+.subscribe {
+    background-color: #fff5eb;
+    padding: 5px;
+}
+
+.subscribe input {
+    padding: 5px;
+}
+.subscribe button {
+    margin: 5px 10px;
+}
+
+.footer {
+    background-color: #747474;
+    grid-area: footer;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .logo_nav, footer {
+    color: #dbcc8f
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer_lists {
+    text-align: center;
+}
+
+.footer_lists img {
+    height: 40px;
+}
+
+a {
+    target-new: tab;
 }
 
 /*Project 1 CSS - Animal Trading Card */
