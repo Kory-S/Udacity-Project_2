@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Blog Homepage</title>
+        <link rel="stylesheet" type="text/css" href="/P2_style.css">
+        <link rel="icon" href="/images/logo.png">
+    </head>
+<!--NAV BAR-->
+    <body>
+        <nav class="navbar">
+            <a class="logo_nav" href="/index.html"><img class="logo" src="/images/logo.png" alt="AI generated logo">KS blogsite</a>
+            <ul>
+                <li class="nav_li">
+                    <a href="/index.html">Home</a>
+                </li>
+                <li class="nav_li">
+                    <a href="/pages/keyboard_shortcuts.html">Newest</a>
+                </li>
+                <li class="nav_li">
+                    <a href="/pages/about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+<!--LEFT SIDE-->
+        <div class="left_side">
+            <h3>Most Recent</h3>
+
+            <a href="/pages/keyboard_shortcuts.html" class="card_post">
+                <h4>Keyboard Shortcuts</h4>
+                <img src="/images/keboard.jpeg" alt="keyboard">
+            </a>
+
+            <a href="/pages/html_notes.html" class="card_post current_page">
+                <h4>HTML Notes</h4>
+                <img src="/images/notes.jpeg" alt="notes">
+            </a>
+            
+            <a href="/pages/projects.html" class="card_post">
+                <h4>Projects</h4>
+                <img src="/images/projects.jpeg" alt="project">
+            </a>
+
+            <a href="#" class="card_post">
+                <h4>Filler</h4>
+                <img src="#" alt="Filler (no image inentionally)">
+            </a>
+        </div>
+
+        <!--MAIN CONTENT-->
+        <div class="main_content">
+            <h1>HTML Notes</h1>
+            <div class="page_content">
+                <h1><strong><em>My HTML Notes</em></strong></h1>
+                
+                <div>
+                    <h2>Markup</h2>
+                    <ul>
+                        <li>Markup helps stylize the text on a webpage</li>
+                        <li>It indicates how the text should be formatted</li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <h2>Elements</h2>
+                    <h3>&ltem&gt&lt/em&gt</h3>
+                        <ul>
+                            <li>emphasis or "em" adds <em>emphasis</em> to text</li>
+                        </ul>
+                    <h3>&ltbr&gt</h3>
+                        <ul>
+                            <li>Breaks or "br" creates a line<br>break between text</li>
+                            <li>Line breaks may often be used inside a paragraph</li>
+                        </ul>
+                            <h3>&ltp&gt&lt/p&gt</h3>
+                        <ul>
+                            <li>Paragraphs or p is most often used for text in a webpage instead of line brakes</li>
+                            <li>Used a lot for articles and blog posts</li>
+                        </ul>
+                        <p>This is an example of a paragraph</p>
+                        <p>This is an example of a line break<br>inside a paragraph</p>
+                    <h3>&ltmark&gt&lt/mark&gt &ltsub&gt&lt/sub&gt and &ltsup&gt&lt/sup&gt</h3>
+                        <ul>
+                            <li><mark>mark</mark> marks or highlights the text</li>
+                            <br>
+                            <li><sub>sub</sub> creates a subscript</li>
+                            <li>Subscript text appears half a character below the normal line</li>
+                            <li>Example: H<sub>2</sub>0</li>
+                            <br>
+                            <li><sup>sup</sup> creates a superscript</li>
+                            <li>Superscript text appears half a character aboce the normal line</li>
+                            <li>Example: 5<sup>2</sup></li>
+                        </ul>
+                </div>
+    
+                <div class="review">
+                    <h2> Elements Reivew (Part 1)</h2>
+                    <p>Elements seen so far:</p>
+                    <ul>
+                        <li>
+                            &ltem&gt and &ltstrong&gt - Emphasis<br>
+                            By default, text inside &ltem&gt is displayed as <em>italic</em>, and text in &ltstrong&gt is displayed as <strong>boldface</strong>.
+                        </li>
+                        <li>
+                            &ltp&gt - Paragraph<br>
+                            Text in a paragraph is separated visually from other paragraphs by a small margin.
+                        </li>
+                        <li>
+                            &ltbr&gt - Line break <em>(empty)</em><br>
+                            A line break does not create a new paragraph; it only marks the end of a line.
+                        </li>
+                        <li>
+                            &ltsub&gt and &ltsup&gt - Subscript and superscript<br>
+                            Useful for math and chemistry: I have x<sup>3</sup>+2x<sup>2</sup> molecules of H<sub>2</sub>O.</li>
+                        <li>
+                            &ltmark&gt - Highlighting/marking text<br>
+                            Not very often used, but it's <mark>kind of cool</mark>.
+                        </li>
+                    </ul>
+                    <p>Of these elements, the <strong><mark>&ltbr&gt</mark></strong> element is the only one that is an empty (or void) element.</p>
+                </div>
+    
+                <div>
+                    <h2>Ordered and Unordered Lists</h2>
+                    <h3>Ordered Lists</h3>
+                    <ol>
+                        <li>Ordered lists list items with numbers</li>
+                        <li>Use &ltol&gt&lt/ol&gt to create an ordered list</li>
+                        <li>&ltli&gt&lt/li&gt identifies each list item</li>
+                    </ol>
+                    <h3>Unordered Lists</h3>
+                    <ul>
+                        <li>Unordered lists list items with bullets</li>
+                        <li>Use &ltul&gt&lt/ul&gt to create an unordered list</li>
+                        <li>&ltli&gt&lt/li&gt identifies each list item</li>
+                    </ul>
+    
+                    <h2>Nested List</h2>
+                    <ol>
+                        <li>a nested list is a list inside a list
+                            <ul>
+                                <li>This is a nested list item inside a nother list</li>
+                            </ul>
+                        </li>
+                        
+                        <li>Nesting lists isn't too hard.</li>
+    
+                    </ol>
+                </div>
+    
+                <div>
+                    <h2>Anchor links</h2>
+                    <p>to add a link to a page, use <strong>&lta href="http://example.net"&gtLink text&lt/a&gt</strong></p>
+                    <ol>
+                        <li><strong>a</strong> is the element tag, "anchor".</li>
+                        <li><strong>href="http://example.net</strong> is the attripute of the anchor element</li>
+                        <li><strong>href</strong> is the name of the attribute</li>
+                        <li><strong>"http://example.net"</strong> is the value of the attribute</li>
+                        <li><strong>Link text</strong> is the content of the element. In this link text of the link</li>
+                    </ol>
+                    <p>The <em>"anchors"</em> the link to the text</p>
+    
+                    <p>Here is a link to Udacity learning:<br><a href="https://learn.udacity.com/">Udacity Learning</a></p>
+                    <p></p>
+                </div>
+    
+                <div>
+                    <h2>Adding images</h2>
+                    <p>to add an image to a page, use <strong>&ltimg src="./file/path" alt="example image"&gt</strong></p>
+                    <ol>
+                        <li><strong>img</strong> is the element tag for images</li>
+                        <li><strong>src="./file/path</strong> is the URL location or file path location of the image</li>
+                        <li><strong>alt="example image"</strong> is a text description of the image. This is useful for when an image may fail to load.</li>        
+                    </ol>
+                    <p>Below is an example of using an image from a website</p>
+                    <img src="https://th.bing.com/th/id/OIP.piQ-UxF9O_5EaSj6NtOKIAHaFr?pid=ImgDet&rs=1" alt="html image">
+                </div>
+    
+                <div class="review">
+                    <h2>Elements Review (Part 2)</h2>
+                    <h3>Block elements</h3>
+                    <p>Block elements are used for large sections of text, such as paragraphs, headlines, or lists; and also for some other features such as video players and tables.</p>
+                    <p>A block element creates a (usually invisible) box in the browser display. By default, this box takes up the full width of the display. The beginning of a block always starts on a new line in the display.</p>
+                    <p>Most block elements have a particular way they are displayed by default: paragraphs have margins around them; lists have bullet-points or numbered items; headlines are printed in large text. There is also a generic block element, <strong><mark>div</mark></strong>, which has no special defaults.</p>
+                    <ul>
+                        <li>
+                            &ltp&gt - Paragraph<br>
+                            Paragraph. Text in a paragraph is separated visually from other paragraphs by a small margin.
+                        </li>
+                        <li>
+                            &ltul&gt and &ltol&gt - Undorder and ordered lists<br>
+                            By default <strong><mark>ul</mark></strong> lists are displayed with bullet points, and <strong><mark>ol</mark></strong> lists with numbered items
+                        </li>
+                        <li>
+                            &ltli&gt - List items<br>
+                            <strong><mark>li</mark></strong> must be nested inside a <strong><mark>ul</mark></strong> or <strong><mark>ol</mark></strong>; It cannot occur on its own.
+                        </li>
+                        <li>
+                            Headers &lth1&gt through &lth6&gt<br>
+                            Used for headlines, section titles, etc...
+                        </li>
+                        <li>
+                            &ltdiv&gt - <em>division</em> of a page or document<br>
+                            Used to organize a page by nesting other block elements in a <strong><mark>div</mark></strong>.<br>
+                            <strong><mark>div</mark></strong>'s are often used with custom styling with CSS<br>
+                        </li>
+                    </ul>
+                    <h3>Inline elements</h3>
+                    <p>Inline elements do not create a full-width box on the display. They modify the display of text, or insert other things into the text — such as line breaks, images, or hyperlinks.</p>
+                    <ul>
+                        <li>
+                            &ltem&gt and &ltstrong&gt - Emphasis<br>
+                            By default, text inside an <strong><mark>em</mark></strong> is <em>italic</em> and text inside a <strong><mark>strong</mark></strong> is <strong>boldface</strong>.
+                        </li>
+                        <li>
+                            &ltbr&gt - Line break<br>
+                            A line break does not create a new paragraph; it only marks the end of a line and continues the text on a new line.
+                        </li>
+                        <li>
+                            &ltsub&gt and &ltsup&gt - Subscript and superscript<br>
+                            Most often used for math and chemistry:
+                            <ul>
+                                <li><strong><mark>&ltsub&gt</mark></strong>: H<sub>2</sub>O</li>
+                                <li><strong><mark>&ltsup&gt</mark></strong>: x<sup>4</sup>+3x<sup>3</sup></li>
+                            </ul>    
+                        </li>
+                        <li>
+                            &ltmark&gt - Mark/highlight text<br>
+                            Not often used by may be helpful <mark><strong>(like taking notes)</strong></mark>
+                        </li>
+                    </ul>
+                    <p>Some inline elements require <strong>attributes</strong>, besides the name of the element itself. Attributes are written inside the opening tag of the element</p>
+                    <ul>
+                        <li>
+                            &ltimg&gt - Images<br>
+                            Images always need a <strong><mark>src=""</mark></strong> attribute with URL or (absolute or relative) filepath. It is also best practice to include an <strong><mark>alt=""</mark></strong> attribute to describe the text. The alt text may be helpful if an image fails to load or when using a screen reader.<br>
+                            <em>syntax example:</em> &ltimg src="https://example.net/example_image.png" alt="example image"&gt
+                        </li>
+                        <li>
+                            &lta&gt - Anchor (hyperlinks)<br>
+                            Anchros for hyperlinks always need to be identified with an <strong><mark>href=""</mark></strong> attribute containing a fully qualified URL.<br>
+                            <em>syntax example:</em> &lta href="https://example.net/" target="_blank"&gt example webpage &lt/a&gt
+                        </li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <h2>HTML structure</h2>
+                    <h3>HTML Boilerplate</h3>
+                    <div class="boilerplate">
+                        <pre>
+    &lt!DOCTYPE html&gt
+    &lthtm lang="en"&gt
+        &lthead&gt
+            &ltmeta charset = "utf-8"&gt
+            &lttitle&gtTITLE&lt/title&gt
+        &lt/head&gt
+                    
+        &ltbody&gt
+            &lth1&gt
+            HEADING
+            &lt/h1&gt
+            &ltp&gt
+                Paragraph
+            &lt/p&gt
+        &lt/body&gt
+    &lt/html&gt                
+                        </pre>
+                    </div>
+                    <p>The <strong><mark>&ltbody&gt</mark></strong> of the html contains everything displayed on the webpage</p>
+                    <p>the <strong><mark>&lthead&gt</mark></strong> of the html contains:</p>
+                    <ul>
+                        <li>title for the name of the webpage - The title is the only <em>required</em> part of the head, but it is best practice to include more data than that</li>
+                        <li>Stylsheet in CSS</li>
+                        <li>Script in javascript</li>
+                        <li>metadata for search engines</li>
+                    </ul>
+                </div>
+            </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+<!--FOOTER-->
+        <footer class="footer">
+            <h1>footer</h1>
+        </footer>
+    </body>
+</html>
