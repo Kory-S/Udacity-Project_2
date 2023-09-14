@@ -213,13 +213,6 @@ body {
     height: 75px;
 }
 
-.subscribe input {
-    padding: 5px;
-}
-.subscribe button {
-    margin: 5px 10px;
-}
-
 .footer {
     background-color: #747474;
     grid-area: footer;
@@ -247,6 +240,10 @@ body {
 
 a {
     target-new: tab;
+}
+
+.github_link {
+    font-size: 0;
 }
 
 /*Project 1 CSS - Animal Trading Card */
