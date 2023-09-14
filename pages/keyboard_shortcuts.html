@@ -3,22 +3,22 @@
     <head>
         <meta charset="utf-8">
         <title>Blog Homepage</title>
-        <link rel="stylesheet" type="text/css" href="/P2_style.css">
-        <link rel="icon" href="/images/logo.png">
+        <link rel="stylesheet" type="text/css" href="../P2_style.css">
+        <link rel="icon" href="../images/logo.png">
     </head>
 <!--NAV BAR-->
     <body>
         <nav class="navbar">
-            <a class="logo_nav" href="/index.html"><img class="logo" src="/images/logo.png" alt="AI generated logo">KS blogsite</a>
+            <a class="logo_nav" href="../index.html"><img class="logo" src="../images/logo.png" alt="AI generated logo">KS blogsite</a>
             <ul>
                 <li class="nav_li">
-                    <a href="/index.html">Home</a>
+                    <a href="../index.html">Home</a>
                 </li>
                 <li class="nav_li current_page">
-                    <a href="/pages/keyboard_shortcuts.html">Newest</a>
+                    <a href="keyboard_shortcuts.html">Newest</a>
                 </li>
                 <li class="nav_li">
-                    <a href="/pages/about.html">About</a>
+                    <a href="about.html">About</a>
                 </li>
             </ul>
         </nav>
@@ -26,19 +26,19 @@
         <div class="left_side">
             <h3>Most Recent</h3>
 
-            <a href="/pages/keyboard_shortcuts.html" class="card_post current_page">
+            <a href="keyboard_shortcuts.html" class="card_post current_page">
                 <h4>Keyboard Shortcuts</h4>
-                <img src="/images/keboard.jpeg" alt="keyboard">
+                <img src="../images/keboard.jpeg" alt="keyboard">
             </a>
 
-            <a href="/pages/html_notes.html" class="card_post">
+            <a href="html_notes.html" class="card_post">
                 <h4>HTML Notes</h4>
-                <img src="/images/notes.jpeg" alt="notes">
+                <img src="../images/notes.jpeg" alt="notes">
             </a>
             
-            <a href="/pages/projects.html" class="card_post">
+            <a href="projects.html" class="card_post">
                 <h4>Projects</h4>
-                <img src="/images/projects.jpeg" alt="project">
+                <img src="../images/projects.jpeg" alt="project">
             </a>
 
             <a href="#" class="card_post">
@@ -131,21 +131,30 @@
 
 
 <!--FOOTER-->
-<footer class="footer">
-    <a class="logo_nav" href="/index.html"><img class="logo" src="/images/logo.png" alt="AI generated logo">KS blogsite</a>
-    <div class="footer_lists">
-        <h4>Resources:</h4>
-        <ul>
-            <li><a href="https://github.com/Kory-S" target="_blank"><img src="/images/GitHub-Logo.png" alt="github logo">Github</a></li>
-        </ul>
-    </div>
-    <div class="footer_lists">
-        <h4>Contact:</h4>
-        <ul>
-            <li>ksmrt89@yahoo.com</li>
-            <li>smart.kory@gmail.com</li>
-        </ul>
-    </div>
-</footer>
-</body>
+        <footer class="footer">
+            <a class="logo_nav" href="../index.html"><img class="logo" src="../images/logo.png" alt="AI generated logo">KS blogsite</a>
+            <div class="footer_lists">
+                <h4>Resources:</h4>
+                <ul>
+                    <li><a href="https://github.com/Kory-S" target="_blank"><img src="../images/GitHub-Logo.png" alt="github logo">Github</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_lists">
+                <p>Liked what you read? Consider subscribing for more!</p>
+                <input type="email" name="email" pattern=".+@globex\.com" placeholder="Enter your email" maxlength="40">
+                <button type="button">
+                    Subscribe
+                </button>
+            </div>
+
+            <div class="footer_lists">
+                <h4>Contact:</h4>
+                <ul>
+                    <li>ksmrt89@yahoo.com</li>
+                    <li>smart.kory@gmail.com</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
