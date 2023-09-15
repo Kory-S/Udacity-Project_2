@@ -14,12 +14,16 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 900;
 }
 
 p {
     font-size: 15px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
-
+figcaption {
+    line-height: 20x;
+    text-align: center;
+}
