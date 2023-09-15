@@ -1,0 +1,20 @@
+.left_side {
+    background-color: #dbcc8f;
+    grid-area: left_side;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    width: 230px;
+}
+
+.left_side .card_post {
+    width: 200px;
+    height: 135px;
+    margin: 5px 10px;
+}
+
+.left_side .card_post img {
+    width: 190px;
+    height: 110px;
+    margin: auto;
+}

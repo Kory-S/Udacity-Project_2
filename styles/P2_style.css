@@ -1,3 +1,10 @@
+@import url(site_text.css);
+@import url(navbar.css);
+@import url(footer.css);
+@import url(left_side.css);
+@import url(about_page.css);
+@import url(p1-animal_trading_card.css);
+
 * {
     border-radius: 5px;
     margin: 0;
@@ -17,63 +24,11 @@ body {
     color: #4e4e4e;
 }
 
-.navbar {
-    height: 50px;
-    margin: 0;
-    padding: 0;
-    background-color: #dbcc8f;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    grid-area: header;
-    border-radius: 0 0 5px 5px;
-}
-
 .logo {
     all: inherit;
     height: 40px;
     width: auto;
     padding: 5px;
-}
-
-.logo_nav {
-    display: flex;
-    text-decoration: none;
-    font-size: 40px;
-    color: #4e4e4e;
-}
-
-.navbar ul {
-    list-style: none;
-    height: 50px;
-    font-size: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-}
-
-.nav_li {
-    padding: 0 5px;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-}
-
-.nav_li a {
-    height: 50px;
-    text-decoration: none;
-    padding: 5px;
-    text-align: center;
-    color: #4e4e4e;
-}
-
-.nav_li:hover, .nav_li a:hover {
-    background-color: #b2a998;
-    width: auto;
-    height: 50px;
 }
 
 .main_content {
@@ -115,27 +70,6 @@ body {
     color: #dbcc8f;
 }
 
-.left_side {
-    background-color: #dbcc8f;
-    grid-area: left_side;
-    display: flex;
-    flex-direction: column;
-    overflow-y: hidden;
-    width: 230px;
-}
-
-.left_side .card_post {
-    width: 200px;
-    height: 135px;
-    margin: 5px 10px;
-}
-
-.left_side .card_post img {
-    width: 190px;
-    height: 110px;
-    margin: auto;
-}
-
 .card_post:hover {
     background-color: #b2a998;
     box-shadow: 5px 5px 5px;
@@ -149,38 +83,6 @@ body {
 
 .project_text {
     font-style: italic;
-}
-
-.about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    color: #dbcc8f;
-    background-color: #4e4e4e;
-}
-
-.about h1 {
-    text-decoration: underline;
-}
-
-.about ul {
-    list-style: none;
-}
-
-.about_label {
-    font-weight: bold;
-    font-size: larger;
-}
-
-.about a {
-    color: #dbcc8f;
-    text-decoration: none;
-}
-
-.about img {
-    width: 100px;
-    height: auto;
 }
 
 .page_content {
@@ -213,31 +115,6 @@ body {
     height: 75px;
 }
 
-.footer {
-    background-color: #747474;
-    grid-area: footer;
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer .logo_nav, footer {
-    color: #dbcc8f
-}
-
-.footer ul {
-    list-style: none;
-}
-
-.footer_lists {
-    text-align: center;
-}
-
-.footer_lists img {
-    height: 40px;
-}
-
 a {
     target-new: tab;
 }
@@ -245,61 +122,6 @@ a {
 .github_link {
     font-size: 0;
 }
-
-/*Project 1 CSS - Animal Trading Card */
-/*Added "p1_" to all class and types to identify what the CSS is for */
-.p1_img {
-    width: 300px;
-    height: auto;
-    padding: 5px;
-    border-radius: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.p1_h3 {
-    padding: 5px;
-}
-
-.p1_p {
-    border: 0px;
-}
-
-.p1_card {
-    padding: 5px;
-    width: 312px;
-    height: auto;
-    margin: 5px;
-    border: 2px solid #533b23;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px #2d2013;
-    background-color: #b28c0525;
-}
-
-.p1_interesting_fact {
-    font-style: italic;
-}
-
-.p1_card .p1_text_info {
-    width: 286px;
-    height: auto;
-    background-color: #a17e4650;
-    box-shadow: none;
-}
-
-.p1_text_info .p1_label {
-    font-weight: bold;
-}
-
-.p1_text_info .p1_ul {
-    padding: 0;
-}
-
-.p1_text_info .p1_li {
-    list-style: none;
-}
-
 
 @media(min-width: 701px) and (max-width: 1100px){
     .logo_nav {

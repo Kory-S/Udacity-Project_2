@@ -1,0 +1,39 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: #4e4e4e;
+    grid-area: main;
+    padding: 5px;
+    color: #dbcc8f;
+
+}
+
+.about h1 {
+    text-decoration: underline;
+}
+
+.about ul {
+    list-style: none;
+}
+
+.about_label {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.about_link {
+    color: #4e4e4e;
+    background-color: #4e4e4e;
+}
+
+.about a {
+    color: #dbcc8f;
+    text-decoration: none;
+}
+
+.about img {
+    width: 100px;
+    height: auto;
+}

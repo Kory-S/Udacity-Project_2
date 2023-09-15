@@ -1,0 +1,51 @@
+.p1_img {
+    width: 300px;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p1_h3 {
+    padding: 5px;
+}
+
+.p1_p {
+    border: 0px;
+}
+
+.p1_card {
+    padding: 5px;
+    width: 312px;
+    height: auto;
+    margin: 5px;
+    border: 2px solid #533b23;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #2d2013;
+    background-color: #b28c0525;
+}
+
+.p1_interesting_fact {
+    font-style: italic;
+}
+
+.p1_card .p1_text_info {
+    width: 286px;
+    height: auto;
+    background-color: #a17e4650;
+    box-shadow: none;
+}
+
+.p1_text_info .p1_label {
+    font-weight: bold;
+}
+
+.p1_text_info .p1_ul {
+    padding: 0;
+}
+
+.p1_text_info .p1_li {
+    list-style: none;
+}

@@ -1,0 +1,24 @@
+.footer {
+    background-color: #747474;
+    grid-area: footer;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .logo_nav, footer {
+    color: #dbcc8f
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer_lists {
+    text-align: center;
+}
+
+.footer_lists img {
+    height: 40px;
+}
