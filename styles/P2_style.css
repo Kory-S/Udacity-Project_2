@@ -102,7 +102,7 @@ body {
 
 .keyboard_shortcut_ul span {
     text-decoration: underline;
-    font-weight: bolder;
+    font-weight: 900;
     font-size: larger;
 }
 
@@ -112,7 +112,7 @@ body {
     margin: 10px;
     padding: 10px;
     width: 300px;
-    height: 75px;
+    height: auto;
 }
 
 a {
@@ -125,7 +125,7 @@ a {
 
 @media(min-width: 720px) and (max-width: 1080px){
     .logo_nav {
-        text-indent: -9999px;
+        font-size: 0;
     }
 
     .left_side {
@@ -142,6 +142,7 @@ a {
         width: 0;
         height: 0;
     }
+    
 }
 
 @media(max-width: 720px){
@@ -156,7 +157,7 @@ a {
     }
 
     .logo_nav {
-        text-indent: -9999px;
+        font-size: 0;
     }
 
     .left_side {
