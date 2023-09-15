@@ -123,7 +123,7 @@ a {
     font-size: 0;
 }
 
-@media(min-width: 701px) and (max-width: 1100px){
+@media(min-width: 720px) and (max-width: 1080px){
     .logo_nav {
         text-indent: -9999px;
     }
@@ -144,7 +144,7 @@ a {
     }
 }
 
-@media(max-width: 700px){
+@media(max-width: 720px){
     body {
         grid-template-areas:
         "header header header header header header header header header header header header header header header header header header"
